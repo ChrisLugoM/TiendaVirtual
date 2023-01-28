@@ -1,0 +1,72 @@
+@media only screen and (max-width: 1950px) and (min-width: 410px) {
+    #cuadro_producto {
+        border: 1.5px dotted cadetblue;
+    }
+    .cuadro_norte {
+        width: 100%;
+        height: 200px;
+        margin: auto;
+    }
+    .cuadro_norte>img {
+        width: 65%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        object-fit: fill;
+    }
+    .cuadro_sur {
+        width: 100%;
+        height: 200px;
+        margin: auto;
+    }
+    #cantidad {
+        width: 30%;
+        margin-bottom: 10px;
+        border-color: darkgreen;
+        ;
+    }
+}
+
+@media only screen and (max-width: 550px) and (min-width: 400px) {
+    #cuadro_producto {
+        border: 1.5px dotted cadetblue;
+    }
+    .cuadro_norte {
+        width: 100%;
+        height: 80px;
+        margin: auto;
+    }
+    .cuadro_norte>img {
+        width: 65%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        object-fit: fill;
+    }
+    .cuadro_sur {
+        width: 100%;
+        height: 200px;
+        margin: auto;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .card-body>h5 {
+        font-size: 10px;
+        text-align: justify;
+    }
+    .card-body>p {
+        font-size: 10px;
+    }
+    .card-body>button {
+        width: 100%;
+        height: auto;
+        font-size: 13px;
+    }
+    #cantidad {
+        width: 55%;
+        margin-bottom: 10px;
+        border-color: darkgreen;
+    }
+}
