@@ -147,10 +147,10 @@ class DetalleVentaController extends Controller
     }
     public function proceso_pago(Request $request)
     {
-        $ClientID = "AQAgUcO4tuMp_riAhXNn3-p86jBIcrEMLNILkBnT56IBPBZDL5kd_c5Z8Ej8jdphr4IBgPMAehnPG0Cw";
-        $Secret = "ELq7HAPNMjxmkc0EKK1rThClDzd99F4rGDlBhMCBsTKFXBOnI1XMJ4AjdbLRW-iHQ1f1OMGcSfF-loHK";
+        $ClientID = "";
+        $Secret = "";
         $val = $request->OrderID;
-        $url = "https://api-m.sandbox.paypal.com/v2/checkout/orders/" . $val;
+        $url = "" . $val;
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_URL, $url);
         /*
